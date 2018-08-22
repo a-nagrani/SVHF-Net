@@ -1,5 +1,5 @@
 # SVHF-Net
-# SVHF-Net Model for Cross-modal binary matching
+# SVHF-Net for Cross-modal binary matching
 
 This directory contains code to import and evaluate the static SVHF-Net model trained on the VoxCeleb and VGGFace datasets as described in the [paper](http://www.robots.ox.ac.uk/~vgg/publications/2018/Nagrani18a/nagrani18a.pdf): 
 
