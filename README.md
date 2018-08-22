@@ -7,7 +7,7 @@ This directory contains code to import and evaluate the static SVHF-Net model tr
 A. Nagrani, S. Albanie, A. Zisserman, Seeing Voices and Hearing Faces: Cross-modal biometric matching, 
 CVPR, 2018
 ``` 
-Further details can be found [here](file:///Users/arshanagrani/Dropbox/Websites/project_pages/seeing-voices-cvpr/index.html).
+Further details can be found [here](http://www.robots.ox.ac.uk/~vgg/research/CMBiometrics/).
 
 ### Prerequisites
 
@@ -36,7 +36,7 @@ test_SVHFNet
  
 ## Dataset 
 This model has been trained on static face images from the VoxCeleb and VGGFace datasets, and audio segments from the VoxCeleb dataset.
-The VoxCeleb dataset can be downloaded directly from [here](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/). Cropped face images can be downloaded from [here](file:///Users/arshanagrani/Dropbox/Websites/project_pages/seeing-voices-cvpr/index.html).
+The VoxCeleb dataset can be downloaded directly from [here](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/). Cropped face images can be downloaded from [here](http://www.robots.ox.ac.uk/~vgg/research/CMBiometrics/).
 
 ## Citation
 If you use this code then please cite:
