@@ -1,5 +1,5 @@
 function setup_SVHFNet()
-%SETUP_VGGVOX Sets up VGGVox, by adding its folders
+%SETUP_SVHFNET Sets up SVHFNet, by adding its folders
 % to the Matlab path
 %
 % Copyright (C) 2018
