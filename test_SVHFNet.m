@@ -57,8 +57,9 @@ inp_f1 = test_getinput_face({facepath1}, opts);
 inp_f2 = test_getinput_face({facepath2}, opts);
 
 %x contains softmax predictions for both faces
-x = evaluate_net_avgpool(net, buckets, gpuArray(inp_f1{1}),gpuArray(inp_f2{1}),gpuArray(inp_a{1}) );
-[score,class]    = max(x);
+x = evaluate_net_avgpool(net, buckets, gpuArray(inp_f1{1}),gpuArray(inp_f2{1}),gpuArray(inp_a{1})) ;
+[score, class] = max(x) ;
+fprintf('prediction for triplet | class %d, confidence: %g\n', class, score) ;
 
 function inp = test_getinput_face(images,opts)
 args{1} = {images, ...
